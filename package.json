@@ -29,5 +29,8 @@
     "system"
   ],
   "author": "Your Name",
+  "engines": {
+    "node": "18.x"
+  },
   "license": "MIT"
 }
