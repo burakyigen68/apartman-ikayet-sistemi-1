@@ -15,10 +15,5 @@ app.use('/api/complaints', complaintRoutes); // Şikayetlerle ilgili rotaları e
 // Hata middleware'ini ekle
 app.use(errorMiddleware);
 
-// Uygulama başlatıldığında konsola bir mesaj yazdır
-app.listen(process.env.PORT || 3000, () => {
-    console.log(`Uygulama ${process.env.PORT || 3000} portunda çalışıyor.`);
-});
-
 // Uygulama modül olarak dışa aktar
 export default app;

@@ -5,13 +5,16 @@
   "main": "src/app.ts",
   "scripts": {
     "start": "ts-node src/server.ts",
+    "build": "tsc",
+    "vercel-build": "echo 'skip build'",
     "test": "jest"
   },
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.10.9",
     "dotenv": "^8.2.0",
-    "typescript": "^4.0.3"
+    "typescript": "^4.0.3",
+    "serverless-http": "^2.7.0"
   },
   "devDependencies": {
     "ts-node": "^9.0.0",
